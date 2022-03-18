@@ -1,0 +1,74 @@
+.firstbox {
+    display:flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    }
+.topbox{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 30px;
+    font-size: 2em;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    font-family: 'Amatic SC', cursive;
+
+}
+
+.myinterests > h1 {
+    color: #2AC2D1;
+    font-size:3.2em;
+}
+
+.secondbox > h2 {
+    text-align: center;
+}
+
+.secondbox h2,h3 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 2.5em;
+    color: #028895;
+    text-align: center;
+}
+.secondbox ul {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 2.1em;
+    background-color: #028895;
+    color: #fefbd8;
+    border-radius: 20px;
+    border: 2px solid white;
+    padding: 12px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.nobullet{
+    list-style-type: none;
+}
+
+
+.topbox img {
+    border: 1px solid black;
+}
+
+.button {
+    background-color: #fefbd8;
+    border: 1px solid black;
+    color: #028895;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    float: right;
+    border-radius: 29px;
+  }
+
+  html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
